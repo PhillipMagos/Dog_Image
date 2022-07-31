@@ -1,0 +1,12 @@
+<%- include('partials/header.ejs') %>
+<h1>I am the SENATE page</h1>
+<div class="container">
+  <form action="/" method="get">
+    <input type="submit" id="btn" value="Click for new Dog"/>
+  </form>
+  <h1>Random Dog Pic Generator</h1>
+  <img id='pic' src=<%= image %> alt="dog">
+  <br><br>
+</div>
+
+<%- include('partials/footer.ejs') %>
